@@ -1,0 +1,27 @@
+.about__blockquote-text {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.about__blockquote-text span {
+  display: block;
+}
+
+.about__blockquote-text:before {
+  position: absolute;
+  content: url("../img/quot.svg");
+  top: -15px;
+  left: 0;
+}
+
+.about__blockquote-text:after {
+  content: url("../img/quot.svg");
+  display: inline-block;
+  transform: rotate(180deg);
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+}

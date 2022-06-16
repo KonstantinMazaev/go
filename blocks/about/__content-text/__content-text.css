@@ -1,0 +1,10 @@
+.about__content-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+
+.about__content-text:last-child {
+  margin-bottom: 0;
+}

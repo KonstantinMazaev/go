@@ -1,0 +1,10 @@
+.contacts__link--phone {
+  position: relative;
+}
+
+.contacts__link--phone:before {
+  position: absolute;
+  content: url("../../img/phone.svg");
+  left: -65px;
+  top: -3px;
+}

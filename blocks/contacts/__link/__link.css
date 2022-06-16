@@ -1,0 +1,8 @@
+.contacts__link {
+  display: inline-block;
+  margin-bottom: 11px;
+}
+
+.contacts__link:last-child {
+  margin-bottom: 0;
+}

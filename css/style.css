@@ -1,0 +1,59 @@
+@import "normalize.css";
+@import "settings.css";
+@import "../blocks/banner/banner.css";
+@import "../blocks/banner/__wrap/__wrap.css";
+@import "../blocks/banner/__title/__title.css";
+@import "../blocks/banner/__slogan/__slogan.css";
+
+@import "./../blocks/functional/functional.css";
+
+@import "./../blocks/halls/halls.css";
+@import "./../blocks/halls/__title/__title.css";
+@import "./../blocks/halls/__list/__list.css";
+@import "./../blocks/halls/__item/__item.css";
+@import "./../blocks/halls/__item/--80s-vibes/--80s-vibes.css";
+@import "./../blocks/halls/__item/--star-wars/--star-wars.css";
+@import "./../blocks/halls/__item/--wild-west/--wild-west.css";
+@import "./../blocks/halls/__item/--neon-style/--neon-style.css";
+@import "./../blocks/halls/__item-text/__item-text.css";
+
+@import "./../blocks/booking/booking.css";
+
+@import "./../blocks/about/about.css";
+@import "./../blocks/about/__title/__title.css";
+@import "./../blocks/about/__wrap/__wrap.css";
+@import "./../blocks/about/__img/__img.css";
+@import "./../blocks/about/__content/__content.css";
+@import "./../blocks/about/__content-wrap/__content-wrap.css";
+@import "./../blocks/about/__content-text/__content-text.css";
+@import "./../blocks/about/__blockquote/__blockquote.css";
+@import "./../blocks/about/__blockquote-text/__blockquote-text.css";
+@import "./../blocks/about/__site/__site.css";
+@import "./../blocks/about/__site-img/__site-img.css";
+@import "./../blocks/about/__site-text/__site-text.css";
+
+@import "./../blocks/reviews/reviews.css";
+@import "./../blocks/reviews/__title/__title.css";
+@import "./../blocks/reviews/__wrap/__wrap.css";
+@import "./../blocks/reviews/__img/__img.css";
+@import "./../blocks/reviews/__name/__name.css";
+@import "./../blocks/reviews/__text/__text.css";
+@import "./../blocks/reviews/__item/__item.css";
+
+@import "./../blocks/faq/faq.css";
+@import "./../blocks/faq/__title/__title.css";
+@import "./../blocks/faq/__list/__list.css";
+@import "./../blocks/faq/__item/__item.css";
+
+@import "./../blocks/contacts/contacts.css";
+@import "./../blocks/contacts/__title/__title.css";
+@import "./../blocks/contacts/__wrap/__wrap.css";
+@import "./../blocks/contacts/__address/__address.css";
+@import "./../blocks/contacts/__link/__link.css";
+@import "./../blocks/contacts/__link/--phone/--phone.css";
+@import "./../blocks/contacts/__link/--mail/--mail.css";
+
+@import "./../blocks/social/social.css";
+@import "./../blocks/social/__list/__list.css";
+@import "./../blocks/social/__item/__item.css";
+@import "./../blocks/social/__link/__link.css";

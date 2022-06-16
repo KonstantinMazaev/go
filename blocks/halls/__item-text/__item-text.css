@@ -1,0 +1,12 @@
+.halls__item-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}

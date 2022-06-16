@@ -1,0 +1,11 @@
+.banner__wrap {
+  position: relative;
+  height: 828px;
+}
+
+.banner__wrap:before {
+  position: absolute;
+  content: url("../img/header-bg.png");
+  right: 0;
+  bottom: 0;
+}

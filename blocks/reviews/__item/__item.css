@@ -1,0 +1,6 @@
+.reviews__item {
+  display: block;
+  float: left;
+  width: 280px;
+  margin-right: 20px;
+}
