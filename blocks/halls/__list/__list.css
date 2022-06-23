@@ -1,5 +1,5 @@
-.halls__list::after {
-  content: "";
-  display: table;
-  clear: both;
+.halls__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }

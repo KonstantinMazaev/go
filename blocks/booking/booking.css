@@ -1,11 +1,27 @@
+@import "__title/__title.css";
+@import "__form/__form.css";
+@import "__fieldset/__fieldset.css";
+@import "__fieldset/--halls/--halls.css";
+@import "__fieldset/--column/--column.css";
+@import "__fieldset/--width/--width.css";
+@import "__fieldset/--date/--date.css";
+@import "__fieldset/--games/--games.css";
+@import "__legend/__legend.css";
+@import "__label/__label.css";
+@import "__label/--halls/--halls.css";
+@import "__label/--console/--console.css";
+@import "__label/--board-games/--board-games.css";
+@import "__label/--date/--date.css";
+@import "__input/__input.css";
+@import "__input/--radio/--radio.css";
+@import "__input/--text/--text.css";
+@import "__input/--date/--date.css";
+@import "__input/--width/--width.css";
+@import "__legend/--margin/--margin.css";
+@import "__select/__select.css";
+
 .booking {
-  padding: 50px 0 2px;
+  padding: 80px 0;
+  background-color: #440F51;
 }
 
-.booking form {
-  padding: 0 22px;
-}
-
-.booking__title {
-  margin-bottom: 55px;
-}

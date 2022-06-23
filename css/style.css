@@ -1,21 +1,15 @@
 @import "normalize.css";
 @import "settings.css";
+
+@import "../blocks/header/header.css";
+
+@import "../blocks/nav/nav.css";
+
 @import "../blocks/banner/banner.css";
-@import "../blocks/banner/__wrap/__wrap.css";
-@import "../blocks/banner/__title/__title.css";
-@import "../blocks/banner/__slogan/__slogan.css";
 
 @import "./../blocks/functional/functional.css";
 
 @import "./../blocks/halls/halls.css";
-@import "./../blocks/halls/__title/__title.css";
-@import "./../blocks/halls/__list/__list.css";
-@import "./../blocks/halls/__item/__item.css";
-@import "./../blocks/halls/__item/--80s-vibes/--80s-vibes.css";
-@import "./../blocks/halls/__item/--star-wars/--star-wars.css";
-@import "./../blocks/halls/__item/--wild-west/--wild-west.css";
-@import "./../blocks/halls/__item/--neon-style/--neon-style.css";
-@import "./../blocks/halls/__item-text/__item-text.css";
 
 @import "./../blocks/booking/booking.css";
 
@@ -57,3 +51,8 @@
 @import "./../blocks/social/__list/__list.css";
 @import "./../blocks/social/__item/__item.css";
 @import "./../blocks/social/__link/__link.css";
+
+@import "../blocks/button/button.css";
+@import "../blocks/button/button-call-me.css";
+@import "../blocks/button/button-book-banner.css";
+@import "../blocks/button/button-form.css";

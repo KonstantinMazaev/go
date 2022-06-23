@@ -1,3 +1,10 @@
+@import "__wrap/__wrap.css";
+@import "__title/__title.css";
+@import "__slogan/__slogan.css";
+@import "__info/__info.css";
+@import "__item/__item.css";
+@import "__text/__text.css";
+@import "__arrow/__arrow.css";
 .banner {
-  padding: 146px 0 47px;
+  padding: 25px 0 50px;
 }

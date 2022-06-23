@@ -1,0 +1,12 @@
+.booking__input--date {
+  margin-bottom: 36px;
+  flex: 0 0 auto;
+  width: 134px;
+  height: 52px;
+  padding: 20px;
+  margin-right: 32px;
+}
+
+.booking__input--date:last-child {
+  margin-right: 0;
+}

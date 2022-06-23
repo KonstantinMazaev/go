@@ -1,0 +1,17 @@
+.button-form {
+  width: 300px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #6C0287;
+  padding: 16px 50px;
+  transition: background-color .2s ease-in, color .2s ease-in;
+}
+
+.button-form:hover {
+  background-color: black;
+  color: #FFFFFF;
+}

@@ -1,0 +1,6 @@
+.banner__info {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  margin-bottom: 150px;
+}

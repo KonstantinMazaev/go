@@ -1,0 +1,9 @@
+.functional__figcaption {
+  position: absolute;
+  top: 166px;
+  right: 40px;
+  left: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}

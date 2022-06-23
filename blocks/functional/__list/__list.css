@@ -1,0 +1,5 @@
+.functional__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px 20px;
+}

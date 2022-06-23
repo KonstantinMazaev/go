@@ -1,11 +1,13 @@
 .banner__wrap {
   position: relative;
-  height: 828px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.banner__wrap:before {
+.banner__wrap::before {
   position: absolute;
   content: url("../img/header-bg.png");
   right: 0;
-  bottom: 0;
+  bottom: -5px;
 }

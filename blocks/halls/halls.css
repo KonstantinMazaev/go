@@ -1,3 +1,12 @@
+@import "__title/__title.css";
+@import "__list/__list.css";
+@import "__item/__item.css";
+@import "__item/--80s-vibes/--80s-vibes.css";
+@import "__item/--star-wars/--star-wars.css";
+@import "__item/--wild-west/--wild-west.css";
+@import "__item/--neon-style/--neon-style.css";
+@import "__text/__text.css";
+
 .halls {
-  padding: 48px 0 50px;
+  padding: 50px 0 100px;
 }

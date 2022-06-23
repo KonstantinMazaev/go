@@ -1,15 +1,6 @@
 .halls__item {
   position: relative;
-  margin: 0 20px 20px 0;
+  flex: 0 0 auto;
   width: 580px;
   height: 349px;
-  float: left;
-}
-
-.halls__item:nth-child(even) {
-  margin-right: 0;
-}
-
-.halls__item:nth-last-child(-n+2) {
-  margin-bottom: 0;
 }

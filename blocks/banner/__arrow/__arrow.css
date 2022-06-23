@@ -1,0 +1,7 @@
+.banner__arrow {
+  position: absolute;
+  display: inherit;
+  right: 50.2%;
+  bottom: 90px;
+  transform: translateX(50%);
+}

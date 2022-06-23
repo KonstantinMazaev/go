@@ -1,0 +1,9 @@
+.booking__fieldset--width {
+  width: 1080px;
+  margin: 0 auto 40px;
+}
+
+.booking__fieldset--width:last-child {
+  margin-bottom: 0;
+  justify-content: flex-end;
+}
