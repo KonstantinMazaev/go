@@ -1,3 +1,4 @@
 .about__wrap {
-  height: 596px;
+  display: flex;
+  justify-content: space-between;
 }

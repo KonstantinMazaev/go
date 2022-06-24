@@ -1,5 +1,14 @@
 .about__cite {
-  display: block;
-  margin: 0 0 0 auto;
-  width: 389px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.about__cite cite {
+  width: 280px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  vertical-align: top;
+  font-style: normal;
 }
