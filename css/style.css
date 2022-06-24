@@ -1,23 +1,18 @@
 @import "normalize.css";
 @import "settings.css";
 
-@import "../blocks/header/header.css";
-@import "../blocks/nav/nav.css";
-@import "../blocks/banner/banner.css";
+@import "./../blocks/header/header.css";
+@import "./../blocks/nav/nav.css";
+@import "./../blocks/banner/banner.css";
 @import "./../blocks/functional/functional.css";
 @import "./../blocks/halls/halls.css";
 @import "./../blocks/booking/booking.css";
 @import "./../blocks/about/about.css";
-@import "../blocks/blockquote/blockquote.css";
-@import "../blocks/cite/cite.css";
+@import "./../blocks/blockquote/blockquote.css";
+@import "./../blocks/cite/cite.css";
 
 @import "./../blocks/reviews/reviews.css";
-@import "./../blocks/reviews/__title/__title.css";
-@import "./../blocks/reviews/__wrap/__wrap.css";
-@import "./../blocks/reviews/__img/__img.css";
-@import "./../blocks/reviews/__name/__name.css";
-@import "./../blocks/reviews/__text/__text.css";
-@import "./../blocks/reviews/__item/__item.css";
+
 
 @import "./../blocks/faq/faq.css";
 @import "./../blocks/faq/__title/__title.css";

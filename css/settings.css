@@ -86,10 +86,6 @@ iframe {
   margin: 0 auto;
 }
 
-.container--narrow {
-  max-width: 1040px;
-}
-
 .hidden {
   display: none;
 }

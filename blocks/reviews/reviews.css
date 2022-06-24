@@ -1,3 +1,11 @@
+@import "__title/__title.css";
+@import "__list/__list.css";
+@import "__item/__item.css";
+@import "__figure/__figure.css";
+@import "__img/__img.css";
+@import "__name/__name.css";
+@import "__text/__text.css";
+
 .reviews {
   padding: 50px 0 50px 0;
 }

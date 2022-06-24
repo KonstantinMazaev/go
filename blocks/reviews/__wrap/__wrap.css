@@ -1,9 +1,0 @@
-.reviews__wrap {
-  margin-bottom: 52px;
-}
-
-.reviews__wrap::after {
-  content: "";
-  display: table;
-  clear: both;
-}
