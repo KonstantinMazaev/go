@@ -1,3 +1,15 @@
+@import "__title/__title.css";
+@import "__wrap/__wrap.css";
+@import "__address/__address.css";
+@import "__list/__list.css";
+@import "__item/__item.css";
+@import "__item/--address/--address.css";
+@import "__link/__link.css";
+@import "__item/--phone/--phone.css";
+@import "__item/--mail/--mail.css";
+@import "__img/__img.css";
+
+
 .contacts {
   padding: 50px 0 84px;
 }

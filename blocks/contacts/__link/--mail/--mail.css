@@ -1,9 +1,0 @@
-.contacts__link--mail {
-  position: relative;
-}
-
-.contacts__link--mail:before {
-  position: absolute;
-  content: url("../../img/mail.svg");
-  left: -65px;
-}

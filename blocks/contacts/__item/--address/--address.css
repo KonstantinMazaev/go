@@ -1,0 +1,8 @@
+.contacts__item--address {
+  margin-bottom: 34px;
+}
+
+.contacts__item--address:before {
+  content: url("../../img/mark.svg");
+  bottom: 0;
+}

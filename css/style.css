@@ -12,20 +12,9 @@
 @import "./../blocks/cite/cite.css";
 @import "./../blocks/reviews/reviews.css";
 @import "./../blocks/faq/faq.css";
-
-
 @import "./../blocks/contacts/contacts.css";
-@import "./../blocks/contacts/__title/__title.css";
-@import "./../blocks/contacts/__wrap/__wrap.css";
-@import "./../blocks/contacts/__address/__address.css";
-@import "./../blocks/contacts/__link/__link.css";
-@import "./../blocks/contacts/__link/--phone/--phone.css";
-@import "./../blocks/contacts/__link/--mail/--mail.css";
-
 @import "./../blocks/social/social.css";
-@import "./../blocks/social/__list/__list.css";
-@import "./../blocks/social/__item/__item.css";
-@import "./../blocks/social/__link/__link.css";
+
 
 @import "../blocks/button/button.css";
 @import "../blocks/button/button-call-me.css";

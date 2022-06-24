@@ -1,0 +1,3 @@
+.contacts__item--mail:before {
+  content: url("../../img/mail.svg");
+}

@@ -1,11 +1,5 @@
 .contacts__address {
-  position: relative;
-  margin-bottom: 45px;
-}
-
-.contacts__address:before {
-  position: absolute;
-  content: url("../img/mark.svg");
-  left: -65px;
-  top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
 }
