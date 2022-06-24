@@ -1,0 +1,8 @@
+@import "__text/__text.css";
+@import "__img/__img.css";
+
+.cite {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}

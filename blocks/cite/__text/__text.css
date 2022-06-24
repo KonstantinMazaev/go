@@ -1,10 +1,4 @@
-.about__cite {
-  display: flex;
-  justify-content: flex-end;
-  gap: 30px;
-}
-
-.about__cite cite {
+.cite__text {
   width: 280px;
   font-weight: 400;
   font-size: 20px;
