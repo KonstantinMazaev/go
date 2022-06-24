@@ -10,14 +10,9 @@
 @import "./../blocks/about/about.css";
 @import "./../blocks/blockquote/blockquote.css";
 @import "./../blocks/cite/cite.css";
-
 @import "./../blocks/reviews/reviews.css";
-
-
 @import "./../blocks/faq/faq.css";
-@import "./../blocks/faq/__title/__title.css";
-@import "./../blocks/faq/__list/__list.css";
-@import "./../blocks/faq/__item/__item.css";
+
 
 @import "./../blocks/contacts/contacts.css";
 @import "./../blocks/contacts/__title/__title.css";

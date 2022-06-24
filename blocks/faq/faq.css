@@ -1,3 +1,7 @@
+@import "__title/__title.css";
+@import "__list/__list.css";
+@import "__item/__item.css";
+
 .faq {
   padding: 50px 0;
 }
