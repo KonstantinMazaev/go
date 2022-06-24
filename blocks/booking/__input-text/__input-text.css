@@ -1,4 +1,4 @@
-.booking__input--text {
+.booking__input-text {
   margin-bottom: 14px;
   flex: 0 0 auto;
   width: 280px;
@@ -6,6 +6,6 @@
   padding: 20px;
 }
 
-.booking__input--text:last-child {
+.booking__input-text:last-child {
   margin-bottom: 0;
 }

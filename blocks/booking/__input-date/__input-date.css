@@ -1,4 +1,4 @@
-.booking__input--date {
+.booking__input-date {
   margin-bottom: 36px;
   flex: 0 0 auto;
   width: 134px;
@@ -7,6 +7,6 @@
   margin-right: 32px;
 }
 
-.booking__input--date:last-child {
+.booking__input-date:last-child {
   margin-right: 0;
 }

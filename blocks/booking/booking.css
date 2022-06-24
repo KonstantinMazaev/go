@@ -11,12 +11,12 @@
 @import "__label/--halls/--halls.css";
 @import "__label/--console/--console.css";
 @import "__label/--board-games/--board-games.css";
-@import "__label/--date/--date.css";
+@import "__label-date/__label-date.css";
 @import "__input/__input.css";
 @import "__input/--radio/--radio.css";
-@import "__input/--text/--text.css";
-@import "__input/--date/--date.css";
-@import "__input/--width/--width.css";
+@import "__input-text/__input-text.css";
+@import "__input-date/__input-date.css";
+@import "__input-width/__input-width.css";
 @import "__legend/--margin/--margin.css";
 @import "__select/__select.css";
 
