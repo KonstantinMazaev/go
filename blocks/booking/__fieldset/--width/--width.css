@@ -1,9 +1,16 @@
 .booking__fieldset--width {
-  width: 1080px;
+  justify-content: space-around;
   margin: 0 auto 40px;
 }
 
 .booking__fieldset--width:last-child {
   margin-bottom: 0;
   justify-content: flex-end;
+}
+
+.booking__fieldset--width:nth-child(3) {
+  width: 1030px;
+}
+.booking__fieldset--width:last-child {
+  width: 980px;
 }

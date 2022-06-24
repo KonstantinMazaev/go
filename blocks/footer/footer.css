@@ -1,0 +1,10 @@
+@import "__wrap/__wrap.css";
+@import "__copyright/__copyright.css";
+@import "__text/__text.css";
+@import "__author/__author.css";
+@import "__link/__link.css";
+
+.footer {
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+  padding-bottom: 10px;
+}
