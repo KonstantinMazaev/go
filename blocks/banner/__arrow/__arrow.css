@@ -1,7 +1,23 @@
 .banner__arrow {
   position: absolute;
   display: inherit;
+  background: url("../img/down.svg") no-repeat center;
+  width: 100px;
+  height: 100px;
   right: 50.2%;
   bottom: 90px;
   transform: translateX(50%);
+  transition: background .2s ease-in;
+}
+
+.banner__arrow:hover {
+  background: url("../img/down-hover.svg") no-repeat center;
+}
+
+.banner__arrow:active {
+  background: url("../img/down-active.svg") no-repeat center;
+}
+
+.banner__arrow:focus {
+  background: url("../img/down.svg") no-repeat center;
 }

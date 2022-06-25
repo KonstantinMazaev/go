@@ -1,7 +1,6 @@
 .button-book-banner {
-  padding: 22px 66px;
+  padding: 24px 69px 24px;
   background-color: #6C0287;
-  border: 3px solid #6C0287;
   border-radius: 10px;
   transition: background-color .2s ease-in;
   margin-bottom: 155px;
@@ -9,5 +8,13 @@
 }
 
 .button-book-banner:hover {
-  background-color: transparent;
+  background-color: #840AA3;
+}
+
+.button-book-banner:active {
+  background-color: #640AA3;
+}
+
+.button-book-banner:focus {
+  background-color: #840AA3;
 }

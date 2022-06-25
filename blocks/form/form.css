@@ -1,0 +1,43 @@
+@import "fieldset/fieldset.css";
+@import "title/title.css";
+@import "legend/legend.css";
+@import "input/input.css";
+@import "label/label.css";
+@import "label/--halls/--halls.css";
+@import "fieldset/--column/--column.css";
+@import "label/--console/--console.css";
+@import "label/--board/--board.css";
+@import "label/--text/--text.css";
+@import "select/select.css";
+@import "input/--date/--date.css";
+@import "input/--text/--text.css";
+@import "input/--text/--small.css";
+@import "input/--hidden/--hidden.css";
+@import "fieldset/--date/--date.css";
+@import "fieldset/--text/--text.css";
+@import "__button/__button.css";
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form > .fieldset {
+    margin-bottom: 60px;
+}
+
+.form > .fieldset:nth-of-type(2) {
+    justify-content: space-around;
+}
+
+.form > .fieldset:nth-of-type(3) {
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.form > .fieldset:nth-of-type(4) {
+    width: 980px;
+    margin: 0 auto;
+    justify-content: flex-end;
+}

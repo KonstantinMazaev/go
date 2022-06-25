@@ -5,6 +5,7 @@
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
+  cursor: pointer;
 }
 
 .faq__item:nth-of-type(2n) {
@@ -20,8 +21,17 @@
   background-image: url("../img/open-purple.svg");
   right: 70px;
   top: 22px;
+  transition: background-image .2s ease-in;
 }
 
 .faq__item:nth-of-type(2n):after {
   background-image: url("../img/open.svg");
+}
+
+.faq__item:hover:nth-of-type(2n):after {
+  background-image: url("../img/open-hover.svg");
+}
+
+.faq__item:hover:after {
+  background-image: url("../img/open-purple-hover.svg");
 }

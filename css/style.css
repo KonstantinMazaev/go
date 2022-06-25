@@ -15,8 +15,8 @@
 @import "./../blocks/contacts/contacts.css";
 @import "./../blocks/social/social.css";
 @import "./../blocks/footer/footer.css";
+@import "./../blocks/form/form.css";
 
 @import "../blocks/button/button.css";
 @import "../blocks/button/button-call-me.css";
 @import "../blocks/button/button-book-banner.css";
-@import "../blocks/button/button-form.css";

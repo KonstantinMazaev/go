@@ -1,0 +1,32 @@
+.label--halls {
+  justify-content: center;
+  width: 250px;
+  padding: 5px 0;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 3px solid transparent;
+  transition: background-color .2s ease-in, color .2s ease-in, border .2s ease-in;
+}
+
+.label--halls:hover {
+  background-color: #EADEED;
+  border: 3px solid #640AA3;
+  border-radius: 8px;
+}
+
+.input:focus + .label--halls:focus {
+  background-color: #FFFFFF;
+  border: 3px solid #640AA3;
+  color: #6C0287;
+}
+
+.input:checked + .label--halls {
+  background-color: #6C0287;
+  border: 3px solid #FFFFFF;
+  color: #FFFFFF;
+}

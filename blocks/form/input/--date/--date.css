@@ -1,0 +1,15 @@
+.input--date {
+    flex: 0 0 auto;
+    width: 134px;
+    height: 52px;
+    padding: 0 20px;
+}
+
+.input--date:last-child {
+    margin-right: 0;
+}
+
+.input--date:focus {
+    outline: none;
+    border: 2px solid #CD06FF;
+}

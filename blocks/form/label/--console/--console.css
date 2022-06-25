@@ -1,0 +1,28 @@
+.label--console::before {
+  display: inline-block;
+  content: "";
+  width: 27px;
+  height: 27px;
+  background-color: #FFFFFF;
+  border-radius: 27px;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.input:checked + .label--console::after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translate(-71%, -52%);
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+  background-color: #440F51;
+  cursor: pointer;
+}
+
+.input:focus + .label--console::before {
+  border: 1px solid #CD06FF;
+}
