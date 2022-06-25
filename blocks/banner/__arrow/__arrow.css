@@ -20,4 +20,5 @@
 
 .banner__arrow:focus {
   background: url("../img/down.svg") no-repeat center;
+  border: 1px solid #CD06FF;
 }
