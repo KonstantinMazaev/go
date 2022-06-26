@@ -1,3 +1,9 @@
 .functional__figure {
   position: relative;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+
+.functional__figure:hover {
+  transform: scale(1.1);
 }
