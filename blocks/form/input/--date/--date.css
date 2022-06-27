@@ -11,5 +11,5 @@
 
 .input--date:focus {
     outline: none;
-    border: 2px solid #CD06FF;
+    border: 2px solid var(--color-very-light-purple);
 }

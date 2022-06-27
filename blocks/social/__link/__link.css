@@ -3,13 +3,13 @@
 }
 
 .social__link:hover {
-  color: #EADEED;
+  color: var(--color-platinum);
 }
 
 .social__link:active {
-  color: #CD06FF;
+  color: var(--color-very-light-purple);
 }
 
 .social__link:focus {
-  color: #EADEED;
+  color: var(--color-platinum);
 }

@@ -1,9 +1,9 @@
 .label {
-    display: flex;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
 }

@@ -15,7 +15,7 @@
   width: 0;
   height: 2px;
   border: none;
-  background-color: #ffffff;
+  background-color: var(--color-text);
   transition: width .2s ease-in;
 }
 
