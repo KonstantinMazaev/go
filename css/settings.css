@@ -1,6 +1,7 @@
 html {
   position: relative;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -82,3 +83,4 @@ iframe {
   text-align: center;
   text-transform: uppercase;
 }
+

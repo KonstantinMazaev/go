@@ -1,3 +1,5 @@
 .contacts__item--phone:before {
   content: url("../../img/phone.svg");
+  padding-top: 4px;
 }
+

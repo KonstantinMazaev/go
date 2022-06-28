@@ -4,5 +4,6 @@
 
 .contacts__item--address:before {
   content: url("../../img/mark.svg");
-  bottom: 0;
+  padding-top: 8px;
 }
+
