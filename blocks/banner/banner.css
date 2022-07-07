@@ -6,5 +6,6 @@
 @import "__text/__text.css";
 @import "__arrow/__arrow.css";
 .banner {
+  position: relative;
   padding: 2.5rem 0 5rem;
 }

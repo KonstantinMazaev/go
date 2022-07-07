@@ -3,11 +3,16 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 118rem;
+  height: 82.3rem;
 }
 
 .banner__wrap::before {
   position: absolute;
-  content: url("../img/header-bg.png");
+  content: "";
+  background: url("../img/header-bg.png") no-repeat center/contain;
   right: 0;
   bottom: -.5rem;
+  width: 67.5rem;
+  height: 76.2rem;
 }
