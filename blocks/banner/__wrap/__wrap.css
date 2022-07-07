@@ -12,7 +12,46 @@
   content: "";
   background: url("../img/header-bg.png") no-repeat center/contain;
   right: 0;
-  bottom: -.5rem;
+  bottom: 0;
   width: 67.5rem;
   height: 76.2rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .banner__wrap {
+    width: 90.4rem;
+    height: 58.3rem;
+  }
+
+  .banner__wrap::before {
+    width: 46.3rem;
+    height: 52rem;
+    right: -.4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .banner__wrap {
+    width: 137.6rem;
+    height: 107.4rem;
+  }
+
+  .banner__wrap::before {
+    width: 84.8rem;
+    height: 95.8rem;
+    right: -1.5rem;
+    bottom: -.4rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .banner__wrap {
+    width: 56rem;
+    height: 40.8rem;
+  }
+
+  .banner__wrap::before {
+    width: 32.8rem;
+    height: 36.2rem;
+  }
 }

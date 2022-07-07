@@ -1,0 +1,25 @@
+.logo {
+  width: 12rem;
+  height: 6.6rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .logo {
+    width: 8.7rem;
+    height: 5.5rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .logo {
+    width: 17.4rem;
+    height: 11rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .logo {
+    width: 13.2rem;
+    height: 8.4rem;
+  }
+}

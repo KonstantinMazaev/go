@@ -1,7 +1,7 @@
 .banner__arrow {
   position: absolute;
   display: inherit;
-  background: url("../img/down.svg") no-repeat center;
+  background: url("../img/down.svg") no-repeat center/contain;
   width: 10rem;
   height: 10rem;
   right: 50.2%;
@@ -21,4 +21,25 @@
 .banner__arrow:focus {
   background: url("../img/down.svg") no-repeat center;
   border: .1rem solid var(--color-very-light-purple);
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .banner__arrow {
+    width: 6.7rem;
+    height: 6.7rem;
+    right: 50.1%;
+    bottom: 4.6rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .banner__arrow {
+
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .banner__arrow {
+    display: none;
+  }
 }

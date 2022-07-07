@@ -5,7 +5,26 @@
 @import "__item/__item.css";
 @import "__text/__text.css";
 @import "__arrow/__arrow.css";
+
 .banner {
   position: relative;
   padding: 2.5rem 0 5rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .banner {
+    padding: 1.5rem 0 5rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .banner {
+
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .banner {
+    padding: 2rem 0 5rem;
+  }
 }

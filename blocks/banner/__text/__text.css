@@ -11,3 +11,34 @@
   line-height: 14.1rem;
   color: var(--color-very-light-purple);
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .banner__text {
+    font-size: 2.6rem;
+    line-height: 3rem;
+  }
+
+  .banner__text span {
+    font-size: 8rem;
+    line-height: 11.3rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .banner__text {
+    font-size: 3.2rem;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .banner__text {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  .banner__text span {
+    font-size: 5.2rem;
+    line-height: 7.4rem;
+  }
+}

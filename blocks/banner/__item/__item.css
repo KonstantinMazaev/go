@@ -17,3 +17,40 @@
   font-size: 7.5rem;
   line-height: 10.6rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .banner__item:nth-of-type(1) {
+    width: 16.5rem;
+  }
+
+  .banner__item:nth-of-type(2) {
+    width: 14.6rem;
+  }
+
+  .banner__item:nth-of-type(2) span {
+    font-size: 6rem;
+    line-height: 8.5rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .banner__item:nth-of-type(1) {
+    width: 20.3rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .banner__item:nth-of-type(1) {
+    width: 13.3rem;
+  }
+
+  .banner__item:nth-of-type(2) {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  .banner__item:nth-of-type(2) span {
+    font-size: 4.4rem;
+    line-height: 6.2rem;
+  }
+}

@@ -4,3 +4,23 @@
   gap: 4rem;
   margin-bottom: 15rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .banner__info {
+    margin-bottom: 8rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .banner__info {
+    gap: 6.8rem;
+    margin-bottom: 20rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .banner__info {
+    gap: .8rem;
+    margin-bottom: 6rem;
+  }
+}
