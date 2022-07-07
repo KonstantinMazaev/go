@@ -23,6 +23,7 @@
 
 @media (max-width: 47.9375em) {
   .button {
-
+    font-size: 2rem;
+    line-height: 2.4rem;
   }
 }

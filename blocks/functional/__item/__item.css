@@ -1,3 +1,25 @@
 .functional__item:nth-of-type(3n + 2) {
   transform: translateY(7rem);
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .functional__item:nth-of-type(3n + 2) {
+    transform: translateY(5.2rem);
+  }
+
+  .functional__item:nth-of-type(5) .functional__figcaption {
+    top: 8.3rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .functional__item:nth-of-type(3n + 2) {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .functional__item:nth-of-type(3n + 2) {
+    transform: translateY(0);
+  }
+}

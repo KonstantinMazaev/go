@@ -7,3 +7,33 @@
   font-size: 2rem;
   line-height: 2.8rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .functional__figcaption {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    top: 11.4rem;
+    right: 2rem;
+    left: 2rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .functional__figcaption {
+    font-size: 4rem;
+    line-height: 5.6rem;
+    top: 26.4rem;
+    right: 6rem;
+    left: 6rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .functional__figcaption {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    top: 6rem;
+    left: 2rem;
+    right: 2rem;
+  }
+}
