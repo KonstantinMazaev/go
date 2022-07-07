@@ -2,6 +2,7 @@ html {
   position: relative;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-size: 0.694445vw;
 }
 
 *,
@@ -11,10 +12,8 @@ html {
 }
 
 body {
-  min-width: 320px;
   min-height: 100vh;
   font-family: Arial, sans-serif;
-  font-size: 20px;
   font-weight: 400;
   color: var(--color-text);
   background-color: var(--color-background);
@@ -67,8 +66,7 @@ iframe {
 }
 
 .container {
-  max-width: 1240px;
-  padding: 0 30px;
+  width: 118rem;
   margin: 0 auto;
 }
 
@@ -82,4 +80,31 @@ iframe {
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media (max-width: 47.9375em) {
+  html {
+    font-size: 1.5625vw;
+  }
+  .container {
+    width: 56rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {  /*  */
+  html {
+    font-size: 0.651042vw;
+  }
+  .container {
+    width: 137.6rem;
+  }
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {  /*  and (max-width: 99.9375em) */
+  html {
+    font-size: 0.9765625vw;
+  }
+  .container {
+    width: 90.4rem;
+  }
 }

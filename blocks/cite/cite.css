@@ -4,5 +4,5 @@
 .cite {
   display: flex;
   justify-content: flex-end;
-  gap: 30px;
+  gap: 3rem;
 }

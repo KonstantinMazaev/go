@@ -1,9 +1,9 @@
 .label--text {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: .3rem;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
   align-items: flex-start;
 }

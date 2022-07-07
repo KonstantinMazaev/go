@@ -1,5 +1,5 @@
 .fieldset--date {
     flex-direction: column;
     justify-content: flex-end;
-    gap: 36px;
+    gap: 3.6rem;
 }

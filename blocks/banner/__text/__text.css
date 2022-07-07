@@ -1,13 +1,13 @@
 .banner__text {
   font-weight: 400;
-  font-size: 30px;
-  line-height: 34px;
+  font-size: 3rem;
+  line-height: 3.4rem;
 }
 
 .banner__text span {
   display: block;
   font-weight: 900;
-  font-size: 100px;
-  line-height: 141px;
+  font-size: 10rem;
+  line-height: 14.1rem;
   color: var(--color-very-light-purple);
 }

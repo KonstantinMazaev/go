@@ -23,7 +23,7 @@
 }
 
 .form > .fieldset {
-    margin-bottom: 52px;
+    margin-bottom: 5.2rem;
 }
 
 .form > .fieldset:nth-of-type(2) {
@@ -32,12 +32,12 @@
 
 .form > .fieldset:nth-of-type(3) {
     justify-content: center;
-    gap: 50px;
-    margin-bottom: 40px;
+    gap: 5rem;
+    margin-bottom: 4rem;
 }
 
 .form > .fieldset:nth-of-type(4) {
-    width: 980px;
+    width: 98rem;
     margin: 0 auto;
     justify-content: flex-end;
 }

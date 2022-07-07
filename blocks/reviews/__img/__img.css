@@ -1,8 +1,8 @@
 .reviews__img {
   display: block;
   position: relative;
-  width: 280px;
-  margin-bottom: 12px;
+  width: 28rem;
+  margin-bottom: 1.2rem;
 }
 
 .reviews__img:before {

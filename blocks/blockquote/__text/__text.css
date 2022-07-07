@@ -1,7 +1,7 @@
 .blockquote__text:first-child {
   font-weight: 400;
-  font-size: 44px;
-  line-height: 50px;
+  font-size: 4.4rem;
+  line-height: 5rem;
   text-transform: uppercase;
 }
 
@@ -12,7 +12,7 @@
 .blockquote__text:before {
   position: absolute;
   content: url("../img/quot.svg");
-  top: -15px;
+  top: -1.5rem;
   left: 0;
 }
 
@@ -22,5 +22,5 @@
   transform: rotate(180deg);
   top: 0;
   left: 0;
-  margin-left: 15px;
+  margin-left: 1.5rem;
 }

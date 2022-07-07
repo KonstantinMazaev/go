@@ -1,32 +1,32 @@
 .label--halls {
   justify-content: center;
-  width: 250px;
-  padding: 5px 0;
-  border-radius: 8px;
+  width: 25rem;
+  padding: .5rem 0;
+  border-radius: .8rem;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 3rem;
+  line-height: 4rem;
   text-transform: uppercase;
   color: #000000;
   background-color: var(--color-text);
-  border: 3px solid transparent;
+  border: .3rem solid transparent;
   transition: background-color .2s ease-in, color .2s ease-in, border .2s ease-in;
 }
 
 .label--halls:hover {
   background-color: var(--color-platinum);
-  border: 3px solid var(--color-dark-purple);
-  border-radius: 8px;
+  border: .3rem solid var(--color-dark-purple);
+  border-radius: .8rem;
 }
 
 .input:focus + .label--halls:focus {
   background-color: var(--color-text);
-  border: 3px solid var(--color-dark-purple);
+  border: .3rem solid var(--color-dark-purple);
   color: var(--color-purple);
 }
 
 .input:checked + .label--halls {
   background-color: var(--color-purple);
-  border: 3px solid var(--color-text);
+  border: .3rem solid var(--color-text);
   color: var(--color-text);
 }

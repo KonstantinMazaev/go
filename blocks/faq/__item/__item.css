@@ -3,8 +3,8 @@
   background-color: var(--color-text);
   color: var(--color-black);
   font-weight: 700;
-  font-size: 24px;
-  padding: 29px 70px 30px;
+  font-size: 2.4rem;
+  padding: 2.9rem 7rem 3rem;
   cursor: pointer;
 }
 
@@ -16,11 +16,11 @@
 .faq__item:after {
   position: absolute;
   content: '';
-  width: 46px;
-  height: 46px;
+  width: 4.6rem;
+  height: 4.6rem;
   background-image: url("../img/open-purple.svg");
-  right: 70px;
-  top: 20px;
+  right: 7rem;
+  top: 2rem;
   transition: background-image .2s ease-in;
 }
 

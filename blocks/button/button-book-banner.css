@@ -1,10 +1,10 @@
 .button-book-banner {
-  padding: 24px 69px 24px;
+  padding: 2.4rem 6.9rem 2.4rem;
   background-color: var(--color-purple);
-  border-radius: 10px;
+  border-radius: 1rem;
   transition: background-color .2s ease-in;
-  margin-bottom: 155px;
-  font-size: 26px;
+  margin-bottom: 15.5rem;
+  font-size: 2.6rem;
 }
 
 .button-book-banner:hover {

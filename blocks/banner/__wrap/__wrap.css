@@ -9,5 +9,5 @@
   position: absolute;
   content: url("../img/header-bg.png");
   right: 0;
-  bottom: -5px;
+  bottom: -.5rem;
 }

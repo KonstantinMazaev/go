@@ -1,5 +1,5 @@
 .contacts__address {
   display: flex;
   flex-direction: column;
-  gap: 31px;
+  gap: 3.1rem;
 }

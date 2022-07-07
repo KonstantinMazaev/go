@@ -1,8 +1,8 @@
 .contacts__item--address {
-  margin-bottom: 34px;
+  margin-bottom: 3.4rem;
 }
 
 .contacts__item--address:before {
   content: url("../../img/mark.svg");
-  padding-top: 8px;
+  padding-top: .8rem;
 }

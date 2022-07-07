@@ -1,8 +1,8 @@
 .input--date {
     flex: 0 0 auto;
-    width: 134px;
-    height: 52px;
-    padding: 0 20px;
+    width: 13.4rem;
+    height: 5.2rem;
+    padding: 0 2rem;
 }
 
 .input--date:last-child {
@@ -11,5 +11,5 @@
 
 .input--date:focus {
     outline: none;
-    border: 2px solid var(--color-very-light-purple);
+    border: .2rem solid var(--color-very-light-purple);
 }

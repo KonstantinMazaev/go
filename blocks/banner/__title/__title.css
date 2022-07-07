@@ -1,7 +1,7 @@
 .banner__title {
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 150px;
+  font-size: 15rem;
   line-height: 100%;
-  letter-spacing: -0.1em;
+  letter-spacing: -0.1rem;
 }

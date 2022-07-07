@@ -1,10 +1,10 @@
 .fieldset--column {
     flex-direction: column;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .fieldset__column .legend {
     text-align: left;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
