@@ -10,3 +10,9 @@
 .halls {
   padding: 5rem 0 10rem;
 }
+
+@media (max-width: 47.9375em) {
+  .halls {
+    padding: 3rem 0 10rem;
+  }
+}

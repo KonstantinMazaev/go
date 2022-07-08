@@ -6,23 +6,23 @@
 @import "__figcaption/__figcaption.css";
 
 .functional {
-  padding: 5rem 0 11.5rem;
+  padding: 5rem 0 11.9rem;
 }
 
 @media (min-width: 64em) and (max-width: 89.9375em) {
   .functional {
-    padding: 3.3rem 0 11.5rem;
+    padding: 3.3rem 0 7rem;
   }
 }
 
 @media (min-width: 48em) and (max-width: 63.9375em) {
   .functional {
-    padding: 8rem 0 11.5rem;
+    padding: 8rem 0 6.5rem;
   }
 }
 
 @media (max-width: 47.9375em) {
   .functional {
-    padding: 4.6rem 0 11.5rem;
+    padding: 4.6rem 0 3rem;
   }
 }

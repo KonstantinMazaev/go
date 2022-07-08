@@ -2,6 +2,7 @@
 @import "settings.css";
 @import "var.css";
 
+@import "./../blocks/title/title.css";
 @import "./../blocks/header/header.css";
 @import "./../blocks/nav/nav.css";
 @import "./../blocks/banner/banner.css";

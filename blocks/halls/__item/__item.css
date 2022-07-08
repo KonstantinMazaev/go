@@ -4,3 +4,24 @@
   width: 58rem;
   height: 34.9rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .halls__item {
+    width: 44.2rem;
+    height: 26.6rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .halls__item {
+    width: 66.8rem;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .halls__item {
+    width: 56rem;
+    height: 33.6rem;
+  }
+}

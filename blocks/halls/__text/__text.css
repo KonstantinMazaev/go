@@ -11,3 +11,25 @@
   width: 100%;
   padding: 0 15rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .halls__item-text {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .halls__item-text {
+    font-size: 8rem;
+    line-height: 10rem;
+    padding: 4rem 15rem 0 15rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .halls__item-text {
+    font-size: 5.2rem;
+    line-height: 6.8rem;
+  }
+}
