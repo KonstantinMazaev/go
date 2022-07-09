@@ -8,7 +8,7 @@
 @media (min-width: 64em) and (max-width: 89.9375em) {
   .about__content {
     width: 44.4rem;
-    height: 21.7rem;
+    min-height: 21.7rem;
     gap: 4rem;
   }
 }

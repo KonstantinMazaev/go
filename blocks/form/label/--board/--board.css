@@ -43,6 +43,16 @@
     height: 8rem;
     margin-right: 4rem;
   }
+
+  .input:checked + .label--board::after {
+    top: 1.6rem;
+    left: 1.2rem;
+    height: 3rem;
+    width: 6rem;
+    border: 1.5rem solid var(--color-very-dark-purple);
+    border-top: none;
+    border-right: none;
+  }
 }
 
 @media (max-width: 47.9375em) {
@@ -60,5 +70,15 @@
     width: 6rem;
     height: 6rem;
     margin-right: 4rem;
+  }
+
+  .input:checked + .label--board::after {
+    top: 1.2rem;
+    left: 0.5rem;
+    height: 2.5rem;
+    width: 4.5rem;
+    border: 1.5rem solid var(--color-very-dark-purple);
+    border-top: none;
+    border-right: none;
   }
 }

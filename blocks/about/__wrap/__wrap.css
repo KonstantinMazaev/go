@@ -1,5 +1,4 @@
 .about__wrap {
-  height: 59.6rem;
   display: grid;
   grid-template-rows: 27.2rem 1fr;
   grid-template-columns: 60rem 50rem;
@@ -8,7 +7,6 @@
 
 @media (min-width: 64em) and (max-width: 89.9375em) {
   .about__wrap {
-    height: 50.4rem;
     grid-template-columns: 42rem 44.4rem;
     grid-template-rows: 19.5rem 21.7rem;
     justify-content: space-between;
@@ -27,7 +25,7 @@
 @media (max-width: 47.9375em) {
   .about__wrap {
     grid-template-columns: 56rem;
-    grid-template-rows: 25.4rem 56rem 32.8rem;
+    grid-template-rows: 25.4rem 56rem auto;
     row-gap: 3rem;
   }
 }

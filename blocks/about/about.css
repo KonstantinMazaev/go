@@ -6,24 +6,23 @@
 @import "__inner/__inner.css";
 
 .about {
-  padding: 10.2rem 0;
-  margin-bottom: 100rem;
+  padding: 10.2rem 0 5rem;
 }
 
 @media (min-width: 64em) and (max-width: 89.9375em) {
   .about {
-    padding: 7.2rem 0;
+    padding: 7.2rem 0 3.5rem;
   }
 }
 
 @media (min-width: 48em) and (max-width: 63.9375em) {
   .about {
-    padding: 12.2rem 0;
+    padding: 12.2rem 0 6rem;
   }
 }
 
 @media (max-width: 47.9375em) {
   .about {
-    padding: 6rem 0;
+    padding: 6rem 0 3rem;
   }
 }
