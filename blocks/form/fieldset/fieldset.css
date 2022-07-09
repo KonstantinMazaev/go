@@ -4,3 +4,25 @@
   border: none;
   padding: 0;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .fieldset {
+
+  }
+
+  .fieldset > .fieldset:nth-of-type(3) .input {
+    width: 25.4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .fieldset {
+
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .fieldset {
+
+  }
+}

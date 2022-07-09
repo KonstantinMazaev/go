@@ -1,5 +1,4 @@
 @import "fieldset/fieldset.css";
-@import "../title/title.css";
 @import "legend/legend.css";
 @import "input/input.css";
 @import "label/label.css";
@@ -23,7 +22,7 @@
 }
 
 .form > .fieldset {
-    margin-bottom: 5.2rem;
+    margin-bottom: 6rem;
 }
 
 .form > .fieldset:nth-of-type(2) {
@@ -36,8 +35,130 @@
     margin-bottom: 4rem;
 }
 
+.form > .fieldset:nth-of-type(3) .fieldset:nth-of-type(2) {
+  column-gap: 5rem;
+}
+
 .form > .fieldset:nth-of-type(4) {
     width: 98rem;
     margin: 0 auto;
     justify-content: flex-end;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .form > .fieldset {
+    margin-bottom: 6rem;
+  }
+
+  .form > .fieldset:nth-of-type(2) {
+    justify-content: start;
+  }
+
+  .form > .fieldset:nth-of-type(2) .fieldset:nth-of-type(2) {
+    width: 33rem;
+  }
+
+  .form > .fieldset:nth-of-type(4) {
+    width: 90.4rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) .fieldset--column:nth-of-type(1) {
+    flex: 0 0 auto;
+    width: 25.1rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) .fieldset--column:nth-of-type(2) .label--text .input {
+    width: 25.4rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) .fieldset:nth-of-type(2) {
+    column-gap: 5rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) .fieldset {
+    align-items: stretch;
+  }
+
+  .form > .fieldset:nth-of-type(3) {
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .form {
+
+  }
+
+  .form > .fieldset {
+    margin-bottom: 11.3rem;
+  }
+
+  .form > .fieldset:nth-of-type(2) {
+    justify-content: start;
+  }
+
+  .form > .fieldset:nth-of-type(2) > .legend {
+    margin-bottom: 9rem;
+  }
+
+  .form > .fieldset:nth-of-type(2) {
+    flex-wrap: wrap;
+    row-gap: 8rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 9rem;
+  }
+
+  .form > .fieldset:nth-of-type(4) {
+    width: 137.9rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .form > .fieldset:nth-of-type(1) {
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    margin-bottom: 6.5rem;
+  }
+
+  .form > .fieldset:nth-of-type(2) {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 5.2rem;
+  }
+
+  .form > .fieldset:nth-of-type(2) > .legend {
+    margin-bottom: 4rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) {
+    flex-wrap: wrap;
+    gap: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) .legend {
+    margin-bottom: 6rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) .fieldset:nth-of-type(2) {
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 7rem;
+  }
+
+  .form > .fieldset:nth-of-type(3) .fieldset:nth-of-type(2) .fieldset:nth-of-type(2) {
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 2.5rem;
+  }
+
+  .form > .fieldset:nth-of-type(4) {
+    width: 56rem;
+  }
 }

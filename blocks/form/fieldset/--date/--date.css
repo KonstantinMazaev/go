@@ -3,3 +3,28 @@
     justify-content: flex-end;
     gap: 3.6rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .fieldset--date {
+
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .fieldset--date {
+    flex-direction: row;
+    gap: 3.6rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  .fieldset--date .fieldset label {
+    margin-right: 2.8rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .fieldset--date {
+    width: 100%;
+    gap: 3rem;
+  }
+}

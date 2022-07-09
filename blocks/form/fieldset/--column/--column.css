@@ -4,7 +4,45 @@
     gap: 2rem;
 }
 
-.fieldset__column .legend {
+.fieldset--column .legend {
     text-align: left;
     margin-bottom: 2.4rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .fieldset--column {
+    flex: 0 0 auto;
+  }
+
+  .fieldset--column:nth-of-type(1) {
+    width: 32rem;
+  }
+
+  .fieldset--column .legend {
+    margin-bottom: 2.3rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .fieldset--column {
+
+  }
+
+  .fieldset--column .legend {
+    margin-bottom: 6rem;
+  }
+
+  .fieldset--column:nth-of-type(1) {
+    width: 73.3rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .fieldset--column {
+    gap: 3rem;
+    width: 100%;
+  }
+  .fieldset--column .legend {
+    margin-bottom: 3.4rem;
+  }
 }

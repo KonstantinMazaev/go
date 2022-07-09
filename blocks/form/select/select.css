@@ -13,3 +13,26 @@
   outline: none;
   border: .2rem solid var(--color-very-light-purple);
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .select {
+
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .select {
+    width: 60rem;
+    height: 10.4rem;
+    font-size: 3.6rem;
+    line-height: 5.6rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .select {
+    width: 56rem;
+    height: 10.4rem;
+  }
+}

@@ -9,3 +9,10 @@
     gap: 4rem;
   }
 }
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .halls__list {
+    row-gap: 3rem;
+    column-gap: 4rem;
+  }
+}

@@ -1,0 +1,25 @@
+.input {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .input {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .input {
+    font-size: 3.6rem;
+    line-height: 5.6rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .input {
+
+  }
+}

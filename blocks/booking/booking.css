@@ -1,4 +1,25 @@
+@import "__title/__title.css";
+
 .booking {
   padding: 8rem 0 7.9rem;
   background-color: var(--color-very-dark-purple);
+}
+
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .booking {
+    padding: 6rem 0;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .booking {
+    padding: 10rem 0 10rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .booking {
+    padding: 6rem 0 6.3rem;
+  }
 }

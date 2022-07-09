@@ -26,3 +26,46 @@
 .input:focus + .label--board::before {
     border: .1rem solid var(--color-very-light-purple);
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .label--board {
+
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .label--board {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .label--board:last-child {
+    margin-bottom: 0;
+  }
+
+  .label--board::before {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 4rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .label--board {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .label--board:last-child {
+    margin-bottom: 0;
+  }
+
+  .label--board::before {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 4rem;
+  }
+
+}

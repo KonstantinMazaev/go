@@ -1,22 +1,22 @@
-.halls__title {
-  line-height: 1;
-  margin-bottom: 5rem;
+.booking__title {
+  margin-bottom: 4.5rem;
 }
 
+
 @media (min-width: 64em) and (max-width: 89.9375em) {
-  .halls__title {
+  .booking__title {
     margin-bottom: 4rem;
   }
 }
 
 @media (min-width: 48em) and (max-width: 63.9375em) {
-  .halls__title {
-    margin-bottom: 8.5rem;
+  .booking__title {
+    margin-bottom: 9.3rem;
   }
 }
 
 @media (max-width: 47.9375em) {
-  .halls__title {
-    margin-bottom: 3rem;
+  .booking__title {
+    margin-bottom: 3.6rem;
   }
 }

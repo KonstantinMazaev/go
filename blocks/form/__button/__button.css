@@ -30,3 +30,32 @@
     border: .3rem solid var(--color-purple);
     color: var(--color-purple);
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .form__button {
+    width: 25.4rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .form__button {
+    width: 60rem;
+    height: 12rem;
+    font-size: 4.4rem;
+    line-height: 5.6rem;
+    border-radius: 2rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .form__button {
+    width: 56rem;
+    height: 12rem;
+    font-size: 3.6rem;
+    line-height: 5.2rem;
+  }
+}

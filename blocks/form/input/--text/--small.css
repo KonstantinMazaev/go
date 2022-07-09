@@ -1,3 +1,23 @@
 .input--small {
     width: 28rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .input--small {
+    width: 25.1rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .input--small {
+    width: 56rem;
+    height: 10.4rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .input--small {
+    width: 56rem;
+    height: 10.4rem;
+  }
+}

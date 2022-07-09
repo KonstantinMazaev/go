@@ -26,3 +26,57 @@
 .input:focus + .label--console::before {
   border: .1rem solid var(--color-very-light-purple);
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .input:checked + .label--console::after {
+    top: 50%;
+    left: 5.2%;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .label--console {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .label--console:last-child {
+    margin-bottom: 0;
+  }
+
+  .label--console::before {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 4rem;
+    margin-right: 4rem;
+  }
+
+  .input:checked + .label--console::after {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 2.5rem;
+    top: 53%;
+    left: 19.5%;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .label--console {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+
+  .label--console::before {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 4rem;
+  }
+
+  .input:checked + .label--console::after {
+    left: 10.5%;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+}

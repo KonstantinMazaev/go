@@ -107,9 +107,9 @@
 
     </section>
 
-    <section class="booking hidden" id="booking">
+    <section class="booking" id="booking">
       <div class="container">
-        <h2 class="title">Забронировать зал просто</h2>
+        <h2 class="title booking__title">Забронировать зал просто</h2>
 
         <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
 
@@ -137,7 +137,7 @@
               <legend class="legend">Приставки</legend>
 
               <input class="input input--hidden" id="play-station" type="radio" name="consoles" value="Play Station">
-              <label class="label label--console" for="play-station">Play Station</label>
+              <label class="label label--console" for="play-station">PlayStation 5</label>
 
               <input class="input input--hidden" id="sega-mega-drive" type="radio" name="consoles" value="Sega Mega Drive">
               <label class="label label--console" for="sega-mega-drive">Sega Mega Drive</label>
@@ -196,7 +196,7 @@
 
               <label for="persons">
                 <select class="select" name="persons" id="persons">
-                  <option selected>Количество человек</option>
+                  <option selected>Сколько человек</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -212,31 +212,35 @@
 
             </fieldset>
 
-            <fieldset class="fieldset fieldset--column fieldset--text">
-              <label class="label label--text" for="name">Имя
-                <input class="input input--text input--small" id="name" type="text" name="name" required>
-              </label>
+            <fieldset class="fieldset">
+              <fieldset class="fieldset fieldset--column fieldset--text">
+                <label class="label label--text" for="name"><span>Имя</span>
+                  <input class="input input--text input--small" id="name" type="text" name="name" required>
+                </label>
 
 
-              <label class="label label--text" for="surname">Фамилия
-                <input class="input input--text input--small" id="surname" type="text" name="surname" required>
-              </label>
+                <label class="label label--text" for="surname"><span>Фамилия</span>
+                  <input class="input input--text input--small" id="surname" type="text" name="surname" required>
+                </label>
 
 
+              </fieldset>
+
+              <fieldset class="fieldset fieldset--column fieldset--text">
+
+                <label class="label label--text" for="phone"><span>Телефон</span>
+                  <input class="input input--text" id="phone" type="tel" name="phone" required>
+                </label>
+
+
+                <label class="label label--text" for="email"><span>E-mail</span>
+                  <input class="input input--text" id="email" type="email" name="email">
+                </label>
+
+              </fieldset>
             </fieldset>
 
-            <fieldset class="fieldset fieldset--column fieldset--text">
 
-              <label class="label label--text" for="phone">Телефон
-                <input class="input input--text" id="phone" type="tel" name="phone" required>
-              </label>
-
-
-              <label class="label label--text" for="email">E-mail
-                <input class="input input--text" id="email" type="email" name="email">
-              </label>
-
-            </fieldset>
 
 
 
