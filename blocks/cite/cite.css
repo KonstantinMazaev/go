@@ -6,3 +6,24 @@
   justify-content: flex-end;
   gap: 3rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .cite {
+    align-items: center;
+    gap: 3.5rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .cite {
+    align-items: center;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .cite {
+    gap: 2rem;
+    justify-content: start;
+  }
+}

@@ -14,12 +14,6 @@
     border: .2rem solid var(--color-very-light-purple);
 }
 
-@media (min-width: 64em) and (max-width: 89.9375em) {
-  .input--date {
-
-  }
-}
-
 @media (min-width: 48em) and (max-width: 63.9375em) {
   .input--date {
     width: 26.8rem;

@@ -30,14 +30,3 @@
   }
 }
 
-@media (min-width: 48em) and (max-width: 63.9375em) {
-  .nav__link {
-
-  }
-}
-
-@media (max-width: 47.9375em) {
-  .nav__link {
-
-  }
-}

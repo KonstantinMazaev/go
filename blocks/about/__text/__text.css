@@ -8,3 +8,27 @@
 .about__text:last-child {
   margin-bottom: 0;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .about__text {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .about__text {
+    font-size: 3.2rem;
+    line-height: 140%;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .about__text {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 3.3rem;
+  }
+}

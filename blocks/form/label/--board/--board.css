@@ -27,12 +27,6 @@
     border: .1rem solid var(--color-very-light-purple);
 }
 
-@media (min-width: 64em) and (max-width: 89.9375em) {
-  .label--board {
-
-  }
-}
-
 @media (min-width: 48em) and (max-width: 63.9375em) {
   .label--board {
     font-size: 4.4rem;
@@ -67,5 +61,4 @@
     height: 6rem;
     margin-right: 4rem;
   }
-
 }

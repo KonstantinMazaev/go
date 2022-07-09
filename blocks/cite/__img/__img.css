@@ -2,3 +2,24 @@
   width: 8rem;
   height: 8rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .cite__img {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .cite__img {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .cite__img {
+    width: 11.2rem;
+    height: 11.2rem;
+  }
+}

@@ -3,21 +3,3 @@
   width: 0;
   height: 0;
 }
-
-@media (min-width: 64em) and (max-width: 89.9375em) {
-  .input--hidden {
-
-  }
-}
-
-@media (min-width: 48em) and (max-width: 63.9375em) {
-  .input--hidden {
-
-  }
-}
-
-@media (max-width: 47.9375em) {
-  .input--hidden {
-
-  }
-}

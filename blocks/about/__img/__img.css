@@ -1,4 +1,33 @@
 .about__img {
   width: 60rem;
   height: 59.6rem;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .about__img {
+    width: 42rem;
+    height: 41.7rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .about__img {
+    width: 76.4rem;
+    height: 76rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .about__img {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    width: 56rem;
+    height: 56rem;
+  }
 }
