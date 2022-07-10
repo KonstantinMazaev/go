@@ -3,3 +3,21 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .faq__list {
+    gap: 1.6rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .faq__list {
+    gap: 3.2rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .faq__list {
+    gap: 2rem;
+  }
+}

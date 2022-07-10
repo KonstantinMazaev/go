@@ -3,5 +3,23 @@
 @import "__item/__item.css";
 
 .faq {
-  padding: 5rem 0;
+  padding: 5.1rem 0;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .faq {
+    padding: 3.5rem 0;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .faq {
+    padding: 6rem 0;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .faq {
+    padding: 3.4rem 0;
+  }
 }
