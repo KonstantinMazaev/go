@@ -1,4 +1,52 @@
+.contacts__item--mail {
+  position: relative;
+}
+
 .contacts__item--mail:before {
-  content: url("../../img/mail.svg");
-  padding-top: .4rem;
+  position: absolute;
+  content: "";
+  background: url("../../img/mail.svg") no-repeat center/contain;
+  width: 3.2rem;
+  height: 2.4rem;
+  left: -21%;
+  top: 57%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .contacts__item--mail:before {
+    padding-top: .3rem;
+    width: 2.7rem;
+    height: 3rem;
+    left: -15%;
+    top: 50%;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .contacts__item--mail {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+  }
+
+  .contacts__item--mail::before {
+    width: 5.2rem;
+    height: 4.4rem;
+    left: -15%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .contacts__item--mail {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+
+  .contacts__item--mail::before {
+    width: 4.2rem;
+    height: 4.4rem;
+    left: -17%;
+    top: 45%;
+  }
 }

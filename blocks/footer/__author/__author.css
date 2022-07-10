@@ -4,3 +4,16 @@
   align-items: flex-end;
   gap: .6rem;
 }
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .footer__author {
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .footer__author {
+    gap: 1rem;
+    align-items: center;
+  }
+}

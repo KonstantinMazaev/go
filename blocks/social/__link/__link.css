@@ -1,5 +1,8 @@
 .social__link {
   transition: color .2s ease-in;
+  display: block;
+  width: 5rem;
+  height: 5rem;
 }
 
 .social__link:hover {
@@ -12,4 +15,26 @@
 
 .social__link:focus {
   color: var(--color-platinum);
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .social__link {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .social__link {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .social__link {
+    width: 6rem;
+    height: 6rem;
+  }
 }

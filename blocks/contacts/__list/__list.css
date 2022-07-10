@@ -3,4 +3,29 @@
   flex-direction: column;
   flex: 0 0 auto;
   width: 33rem;
+  padding-left: 6rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .contacts__list {
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .contacts__list {
+    padding: 0;
+    align-items: center;
+    width: 60rem;
+    gap: 6rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .contacts__list {
+    padding: 0;
+    align-items: center;
+    width: 30rem;
+    gap: 2.1rem;
+  }
 }

@@ -2,3 +2,24 @@
   width: 68rem;
   height: 27.4rem;
 }
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .contacts__img {
+    width: 54.2rem;
+    height: 27.4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .contacts__img {
+    width: 137.6rem;
+    height: 67.4rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .contacts__img {
+    width: 56rem;
+    height: 38.8rem;
+  }
+}

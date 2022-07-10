@@ -1,4 +1,23 @@
 .social__list {
   display: flex;
-  gap: 2.6rem;
+  gap: 2.62rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .social__list {
+    gap: 2.62rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .social__list {
+    justify-content: center;
+    gap: 5.2rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .social__list {
+    gap: 4rem;
+  }
 }

@@ -1,5 +1,25 @@
 .contacts__address {
   display: flex;
   flex-direction: column;
-  gap: 3.1rem;
+  gap: 4rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .contacts__address {
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .contacts__address {
+    gap: 5rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .contacts__address {
+    gap: 2rem;
+    align-items: center;
+  }
 }

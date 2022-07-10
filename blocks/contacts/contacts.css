@@ -10,5 +10,23 @@
 @import "__img/__img.css";
 
 .contacts {
-  padding: 5rem 0 14rem;
+  padding: 4.4rem 0 14.3rem;
+}
+
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .contacts {
+    padding: 1.1rem 0 9rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .contacts {
+    padding: 7rem 0 14.5rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .contacts {
+    padding: 3rem 0 12.2rem;
+  }
 }
